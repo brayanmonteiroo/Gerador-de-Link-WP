@@ -1,0 +1,100 @@
+/* Estilo dos inputs */
+input[type="tel"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilo do botão de submit */
+button[type=submit] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button[type=submit]:hover {
+    background-color: #128e76;
+}
+
+/* Estilo dos labels */
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Estilo do container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo da card */
+.card {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+/* Estilo do título */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Estilo do botão de copiar */
+#copiar-link {
+    background-color: #fff;
+    color: #1abc9c;
+    border: 2px solid #1abc9c;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#copiar-link:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Estilo da mensagem de sucesso ao copiar */
+#copiar-link-mensagem {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1abc9c;
+    margin-top: 10px;
+    text-align: center;
+}
+
+i {
+    color: #28a745;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+i:hover {
+    color: #218838;
+    text-decoration: underline;
+}
